@@ -1,0 +1,23 @@
+.success-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  .warning-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #b81520; /* Green background color */
+    color: white; /* White text color */
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+    

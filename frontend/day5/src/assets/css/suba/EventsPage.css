@@ -1,0 +1,64 @@
+.events-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .events-container h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+  }
+  
+  .events-grid {
+    display: grid;
+    
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .event-card {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    display: flex; /* Use flexbox for layout */
+  }
+  
+  .event-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .event-image,
+  .event-details {
+    flex: 1; /* Make them take up equal space */
+  }
+  
+  .event-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .event-details {
+    padding: 20px;
+  }
+  
+  .event-details h2 {
+    margin-top: 0;
+    font-size: 40px;
+    color: #333;
+  }
+  
+  .event-details p {
+    color: #666;
+    font-size: 40px;
+  }
+  

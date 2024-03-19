@@ -1,0 +1,191 @@
+.user-management-container {
+  position: relative; 
+}
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red; /* Set button color to red */
+  color: white; /* Set text color to white */
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 10px; /* Add padding for better appearance */
+  border-radius: 5px; /* Add border radius for rounded corners */
+}
+/* user.css */
+
+/* New user button styles */
+.new-user-button {
+  position: absolute;
+  top: 20px; /* Adjust top distance from the top of the page */
+  right: 20px; /* Adjust right distance from the right edge of the page */
+  background-color: #27ae60; /* Green button color */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.new-user-button:hover {
+  background-color: #219a52; /* Darker green on hover */
+}
+
+
+.close-button:hover {
+  background-color: darkred; /* Darken the button color on hover */
+}
+
+.add-button {
+  position: absolute;
+  top: 0; 
+  right: 0; 
+  margin: 20px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+/* user.css */
+
+.user-container {
+    position: relative;
+    padding: 20px;
+  }
+  /* user.css */
+
+/* Overlay style */
+.overlay {
+    position: fixed; /* Position the overlay */
+    top: 0;
+    left: 0;
+    width: 100%; /* Cover the entire viewport */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    z-index: 999; /* Ensure the overlay stays on top */
+  }
+  /* user.css */
+
+
+
+  
+  /* Center the form */
+  .user-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000; /* Ensure the form stays above the overlay */
+    /* Adjust width and height as needed */
+    width: 400px;
+    max-width: 90%; /* Limit maximum width */
+  }
+  
+  /* Rest of the CSS remains the same */
+  
+  .user-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .user-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .user-submit-button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .user-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-table {
+    margin-top: 40px;
+  }
+  
+  .action-buttons button {
+    margin-right: 5px;
+  }
+  
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #e9e9e9;
+}
+
+table td button {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+table td button:hover {
+  background-color: #c82333;
+}

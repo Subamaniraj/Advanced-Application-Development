@@ -1,0 +1,90 @@
+/* src/assets/css/Styles.css */
+
+.birthday-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .h1 {
+    margin-bottom: 20px;
+  }
+  
+  .packages {
+    display: flex;
+    flex-wrap: wrap; /* Allow packages to wrap to the next line */
+    justify-content: space-around;
+    margin-bottom: 40px;
+    margin-left: 200px;
+  }
+  
+  .package-card {
+    width: 300px; /* Set a fixed width for the package cards */
+    height: 400px; /* Set a fixed height for the package cards */
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .package-image {
+    width: 100%;
+    height: 60%; /* Set the height of the image container */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  .package-image img {
+    width: 100%;
+    height: 100%; /* Fill the container */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .package-details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Add-ons styling */
+  .add-ons {
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 40px; /* Add margin to separate add-ons section from packages */
+  }
+  
+  
+  .addon-category {
+    margin-bottom: 20px;
+    margin-left: 200px;
+  }
+  
+  .addon-category h3 {
+    margin-bottom: 10px;
+  }
+  
+  .addon-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .addon-item {
+    width: 200px; /* Set a fixed width for the add-on items */
+    height: 200px; /* Set a fixed height for the add-on items */
+    margin: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .addon-item img {
+    width: 100%;
+    height: 100%; /* Set the height of the image container */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .addon-item span {
+    display: block;
+    padding: 10px;
+  }
+  

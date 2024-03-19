@@ -1,0 +1,52 @@
+/* UserLayout.css */
+
+/* Header Styles */
+.header {
+    background-color: #333; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 10px 20px; /* Add padding */
+    text-align: center; /* Center align text */
+  }
+  
+  .header h1 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #f2f2f2; /* Set background color */
+    padding: 10px 0; /* Add padding */
+  }
+  
+  .navbar ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center align list items */
+  }
+  
+  .navbar ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 20px; /* Add right margin between list items */
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 0; /* Remove right margin from the last list item */
+  }
+  
+  .navbar ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Set link color */
+    font-weight: bold; /* Make links bold */
+    transition: color 0.3s; /* Add transition effect */
+  }
+  
+  .navbar ul li a:hover {
+    color: #007bff; /* Change link color on hover */
+  }
+  
+  /* Content Styles */
+  .content {
+    padding: 20px; /* Add padding */
+  }
+  
