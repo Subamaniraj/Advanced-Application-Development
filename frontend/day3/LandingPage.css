@@ -1,0 +1,242 @@
+/* LandingPage.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navigation ul li {
+    display: inline;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('path/to/your/image.jpg'); /* Add background image */
+    background-attachment: fixed; /* Ensure the background remains fixed while scrolling */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Cover the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff; /* Set text color */
+}
+
+.hero p {
+    color: #ccc; /* Set text color */
+    margin-bottom: 30px;
+    max-width: 80%; /* Set maximum width for paragraph */
+    line-height: 1.5; /* Set line height for better readability */
+    text-align: center; /* Center the paragraph horizontally */
+}
+
+
+
+
+.cta {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.cta:hover {
+    background-color: #0056b3;
+}
+
+/* Features Section */
+.features {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('path/to/your/image.jpg'); /* Add background image */
+    background-attachment: fixed; /* Ensure the background remains fixed while scrolling */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Set text color */
+    height: 100vh; /* Cover the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feature h3 {
+    margin-top: 10px;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('path/to/your/image.jpg'); /* Add background image */
+    background-attachment: fixed; /* Ensure the background remains fixed while scrolling */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Set text color */
+    height: 100vh; /* Cover the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.how-it-works h2 {
+    margin-bottom: 30px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+}
+
+.step {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 50px 0;
+    text-align: center;
+    background-image: url('path/to/your/image.jpg'); /* Add background image */
+    background-attachment: fixed; /* Ensure the background remains fixed while scrolling */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the background image */
+    color: #fff; /* Set text color */
+    height: 100vh; /* Cover the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 30px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background-color: rgba(242, 242, 242, 0.8); /* Semi-transparent background */
+    padding: 50px 0;
+    text-align: center;
+    height: 100vh; /* Cover the full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-section h2 {
+    margin-bottom: 30px;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* Updated styles for feature icons */
+.feature .icon {
+    max-width: 100%; /* Ensure the icon does not exceed the container's width */
+    max-height: 100%; /* Ensure the icon does not exceed the container's height */
+    display: block; /* Ensure proper layout and alignment */
+    margin: 0 auto; /* Center the icon horizontally within the container */
+}
+
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the landing page covers the full viewport height */
+}
+
+/* Parallax Scrolling */
+.hero,
+.features,
+.how-it-works,
+.testimonials {
+    background-attachment: fixed; /* Ensure the background remains fixed while scrolling */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-size: cover; /* Cover the entire section */
+}
+
+/* Hide the header when scrolled down */
+.header.hide {
+    transform: translateY(-100%);
+}
+
+/* Add transition for smooth effect */
+.header,
+.navbar {
+    transition: transform 0.3s ease;
+}
